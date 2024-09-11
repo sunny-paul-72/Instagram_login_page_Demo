@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+#login_box {
+    height: 410px;
+    width: 350px;
+    border: 1px solid rgb(58, 58, 58);
+    position: absolute;
+    top: 42px;
+    right: 450px;
+}
+
+#logo {
+    height: 100px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 35px;
+}
+
+#username {
+    height: 31px;
+    width: 265px;
+    margin: 40px 0px 0px 38px;
+    padding-left: 8px;
+    font-size: 12px;
+}
+
+#password {
+    height: 31px;
+    width: 265px;
+    margin: 10px 0px 0px 38px;
+    padding-left: 8px;
+    font-size: 12px;
+}
+
+#button {
+    height: 33px;
+    width: 270px;
+    background-color: #009ae5;
+    border-radius: 8px;
+    margin: 13px 0px 0px 38px;
+    padding-left: 8px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login_button {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#button:hover {
+    cursor: pointer;
+}
+
+#line1 {
+    width: 115px;
+    border: 1px solid black;
+    margin: 30px 10px 0px 40px;
+    opacity: 0.5;
+    display: inline-block;
+}
+#line2 {
+    display: inline-block;
+}
+#line3 {
+    width: 115px;
+    border: 1px solid black;
+    opacity: 0.5;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+#facebook_log_in {
+    color: navy;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: 110px;
+}
+#forgot_pass {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    top: 75px;
+    right: 45px;
+}
+
+#no_account {
+    height: 49px;
+    width: 350px;
+    border: 1px solid rgb(58, 58, 58);
+    position: absolute;
+    top: 468px;
+    right: 450px;
+}
+
+#not_account {
+    display: inline-block;
+    margin: 15px 0px 0px 65px;
+}
+
+#sign_in {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#comment {
+    display: inline-block;
+    position: absolute;
+    bottom: 100px;
+    right: 570px;
+}
